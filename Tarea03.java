@@ -24,17 +24,22 @@ public class Tarea03 {
 
 //==========================DO WHILE===============================
 
-
-
-
-
-
-
-
-
-
-
-
+        byte Num1;
+        byte Num2;
+        
+        do {
+            
+            Num1 = Byte.parseByte(JOptionPane.showInputDialog(
+            "Ingrese un número: "));
+            
+            Num2 = Byte.parseByte(JOptionPane.showInputDialog(
+            "Ingrese un número: "));
+            
+        } while ( Num1 != Num2 );
+        
+        JOptionPane.showMessageDialog(null, 
+                "Los números ingresados son iguales");
+        
 //===============================FOR=================================
 
     }
