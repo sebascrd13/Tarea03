@@ -41,6 +41,25 @@ public class Tarea03 {
                 "Los números ingresados son iguales");
         
 //===============================FOR=================================
-
+       Datos = new datos(System.in);
+       int contador_positivo = 0;
+       int contador_negativo = 0;
+        
+        
+       for (int i=0; i<10; i++) {
+            System.out.print( "Ingrese un número"));
+            int a= datos.nextInt();
+            if(a>=0){
+                contador_positivo++;
     }
-}
+           if (a<0){
+               contador_negativo ++;
+    }
+           
+           if(i++9){
+              System.out.println( " Total de números positivos = " +contador_positivo);
+              System.out.println( " Total de números negativos = " +contador_negativo);
+               
+           }
+     }
+     
