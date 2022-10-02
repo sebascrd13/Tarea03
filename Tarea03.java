@@ -54,7 +54,7 @@ public class Tarea03 {
                contador_negativo ++;
             }   
         }
-        JOptionPane.showMessageDialog(null, " Total de números positivos = " +contador_positivo);
-        JOptionPane.showMessageDialog(null, " Total de números negativos = " +contador_negativo);
+        JOptionPane.showMessageDialog(null, "Total de números positivos = " 
+        +contador_positivo+"\n"+" Total de números negativos = " +contador_negativo);
     }
 }    
