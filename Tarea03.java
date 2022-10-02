@@ -46,7 +46,7 @@ public class Tarea03 {
        int a;
         
        for (int i=0; i<10; i++) {
-            a = Integer.parseInt(JOptionPane.showInputDialog( "Ingrese un número"));
+            a = Integer.parseInt(JOptionPane.showInputDialog( "Ingresa un número"));
             if(a>=0){
                 contador_positivo++;
             }
