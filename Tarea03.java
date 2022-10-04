@@ -43,10 +43,12 @@ public class Tarea03 {
 //===============================FOR=================================
        int contador_positivo = 0;
        int contador_negativo = 0;
+       int total = 0;
        int a;
         
        for (int i=0; i<10; i++) {
             a = Integer.parseInt(JOptionPane.showInputDialog( "Ingrese un número"));
+            total=total+a;
             if(a>=0){
                 contador_positivo++;
             }
@@ -55,6 +57,7 @@ public class Tarea03 {
             }   
         }
         JOptionPane.showMessageDialog(null, "Total de números positivos = " 
-        +contador_positivo+"\n"+" Total de números negativos = " +contador_negativo);
+        +contador_positivo+"\n"+" Total de números negativos = " +contador_negativo+"\n"
+        +"Suma de los números: "+total);
     }
 }    
